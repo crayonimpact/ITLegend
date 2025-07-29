@@ -3037,12 +3037,11 @@
           'Content-Type': 'application/json',
           'Accept': 'application/json'
         },
-        mode: 'no-cors', // This bypasses CORS but limits response access
         body: JSON.stringify(flowData)
       })
-      .then(function() {
-        // With no-cors mode, we can't read the response, but the request should go through
-        console.log('Lead data sent to Power Automate (no-cors mode)');
+      .then(response => response.json())
+      .then(data => console.log(data))
+      .catch(error => console.error(error));
         
         // Success! Hide the gate and show the detailed content
         document.getElementById('leadGateSection').style.display = 'none';
