@@ -351,7 +351,7 @@
     z-index: 10;
     pointer-events: all;
   }
-  
+
   .pain-point-card input[type="checkbox"]:hover {
     transform: scale(1.1);
   }
@@ -452,7 +452,7 @@
     gap: 0.75rem;
     margin-bottom: 0.5rem;
   }
-  
+
   .tech-grid.cloud-services {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -528,7 +528,7 @@
     z-index: 10;
     pointer-events: all;
   }
-  
+
   .tech-card input[type="checkbox"]:hover, .ea-card input[type="radio"]:hover {
     transform: scale(1.1);
   }
@@ -592,22 +592,22 @@
     top: 50%;
     transform: translateY(-50%);
   }
-  
+
   .back-button:hover {
     color: #ff6b4c;
     transform: translateX(-4px) translateY(-50%);
   }
-  
+
   .back-button::before {
     content: '←';
     font-size: 1.2rem;
     transition: transform 0.3s ease;
   }
-  
+
   .back-button:hover::before {
     transform: translateX(-2px);
   }
-  
+
   .button-container {
     position: relative;
     margin-top: 1.5rem;
@@ -615,8 +615,6 @@
     display: flex;
     align-items: center;
   }
-  
-  .calculate-btn {
     width: 100%;
     max-width: 280px;
     margin: 1.5rem auto 0;
@@ -771,7 +769,7 @@
     opacity: 0;
     animation: fadeInUp 0.8s ease-out 0.8s forwards, gentleBounce 2s ease-in-out 1.6s infinite;
   }
-  
+
   .scroll-to-details:hover {
     background: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 107, 76, 0.5);
@@ -779,19 +777,19 @@
     transform: translateY(2px);
     animation: gentleBounce 2s ease-in-out infinite;
   }
-  
+
   .scroll-to-details::before,
   .scroll-to-details::after {
     content: '↓';
     font-size: 1.2rem;
     transition: transform 0.3s ease;
   }
-  
+
   .scroll-to-details:hover::before,
   .scroll-to-details:hover::after {
     transform: translateY(3px);
   }
-  
+
   @keyframes gentleBounce {
     0%, 100% {
       transform: translateY(0);
@@ -844,7 +842,7 @@
     white-space: nowrap;
     flex: 0 0 auto;
   }
-  
+
   .pain-point-text {
     position: relative;
     display: flex;
@@ -854,12 +852,12 @@
     height: 100%;
     min-height: 60px;
   }
-  
+
   .challenge-text,
   .resolved-text {
     white-space: nowrap;
   }
-  
+
   .challenge-text {
     opacity: 1;
     visibility: visible;
@@ -867,7 +865,7 @@
     filter: blur(0);
     transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .resolved-text {
     position: absolute;
     left: 50%;
@@ -878,27 +876,27 @@
     filter: blur(10px);
     transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .pain-point-item.transformed .challenge-text {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px) scale(0.9);
     filter: blur(5px);
   }
-  
+
   .pain-point-item.transformed .resolved-text {
     opacity: 1;
     visibility: visible;
     transform: translate(-50%, -50%) scale(1);
     filter: blur(0);
   }
-  
+
   .pain-point-item.transformed {
     background: linear-gradient(135deg, rgba(255, 107, 76, 0.05) 0%, rgba(255, 143, 112, 0.03) 100%);
     border-color: rgba(255, 107, 76, 0.3);
     box-shadow: 0 0 30px rgba(255, 107, 76, 0.2);
   }
-  
+
   .resolved-word {
     background: linear-gradient(135deg, #ff6b4a 0%, #ff8f70 50%, #ffd4cc 100%);
     -webkit-background-clip: text;
@@ -908,7 +906,7 @@
     text-shadow: 0 0 30px rgba(255, 107, 76, 0.5);
     animation: resolvedGlow 2s ease-in-out infinite;
   }
-  
+
   @keyframes resolvedGlow {
     0%, 100% { 
       filter: brightness(1) drop-shadow(0 0 10px rgba(255, 107, 76, 0.6));
@@ -949,14 +947,14 @@
     opacity: 0;
     animation: fadeInUp 0.8s ease-out 1s forwards;
   }
-  
+
   .lead-gate-title {
     font-size: 2.5rem;
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 1rem;
   }
-  
+
   .lead-gate-subtitle {
     font-size: 1.2rem;
     color: #94a3b8;
@@ -965,27 +963,27 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .lead-form {
     max-width: 500px;
     margin: 0 auto;
   }
-  
+
   .form-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     margin-bottom: 1rem;
   }
-  
+
   .form-group {
     margin-bottom: 1rem;
   }
-  
+
   .form-group.full-width {
     grid-column: 1 / -1;
   }
-  
+
   .form-label {
     display: block;
     font-size: 0.9rem;
@@ -994,7 +992,7 @@
     margin-bottom: 0.5rem;
     text-align: left;
   }
-  
+
   .form-input {
     width: 100%;
     padding: 0.875rem 1rem;
@@ -1005,18 +1003,18 @@
     color: #ffffff;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .form-input::placeholder {
     color: #64748b;
   }
-  
+
   .form-input:focus {
     outline: none;
     border-color: #ff6b4c;
     background: rgba(255, 255, 255, 0.08);
     box-shadow: 0 0 0 4px rgba(255, 107, 76, 0.1);
   }
-  
+
   .form-submit {
     width: 100%;
     padding: 1.25rem 2rem;
@@ -1037,18 +1035,18 @@
     overflow: hidden;
     margin-top: 1.5rem;
   }
-  
+
   .form-submit:hover {
     transform: translateY(-3px);
     box-shadow: 
       0 15px 40px rgba(255, 107, 76, 0.4),
       inset 0 1px 0 rgba(255, 255, 255, 0.3);
   }
-  
+
   .form-submit:active {
     transform: translateY(-1px);
   }
-  
+
   .value-props {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1057,11 +1055,11 @@
     padding-top: 2rem;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
   }
-  
+
   .value-prop {
     text-align: center;
   }
-  
+
   .value-prop-icon {
     width: 48px;
     height: 48px;
@@ -1073,33 +1071,31 @@
     justify-content: center;
     font-size: 1.5rem;
   }
-  
+
   .value-prop-text {
     font-size: 0.95rem;
     color: #94a3b8;
     font-weight: 500;
   }
-  
+
   .gated-content {
     display: none;
   }
-  
+
   .gated-content.unlocked {
     display: block !important;
   }
-  
+
   @media (max-width: 768px) {
     .form-row {
       grid-template-columns: 1fr;
     }
-    
+
     .value-props {
       grid-template-columns: 1fr;
       gap: 1.5rem;
     }
   }
-  
-  .table-section {
     background: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(40px);
     border-radius: 32px;
@@ -1477,60 +1473,60 @@
     .container {
       padding: 1rem;
     }
-    
+
     .header h1 {
       font-size: 3rem;
     }
-    
+
     .calculator-section {
       padding: 2rem 1.5rem;
     }
-    
+
     .pain-points-grid {
       grid-template-columns: 1fr;
       gap: 1rem;
     }
-    
+
     .horizontal-questions {
       grid-template-columns: 1fr;
       gap: 1.5rem;
     }
-    
+
     .tech-grid {
       grid-template-columns: repeat(2, 1fr);
       gap: 0.75rem;
     }
-    
+
     .tech-grid.cloud-services {
       grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .tech-card {
       padding: 1rem 0.5rem;
     }
-    
+
     .tech-card label {
       font-size: 0.85rem;
     }
-    
+
     .tech-card input[type="checkbox"] {
       width: 18px;
       height: 18px;
       margin-right: 0.5rem;
     }
-    
+
     .summary-content {
       flex-direction: column;
       gap: 1rem;
       text-align: center;
     }
-    
+
     .summary-left {
       flex-direction: column;
       gap: 0.75rem;
       width: 100%;
     }
-    
+
     .summary-item {
       justify-content: center;
     }
@@ -1540,11 +1536,11 @@
     .header h1 {
       font-size: 2.5rem;
     }
-    
+
     .results-title {
       font-size: 2rem;
     }
-    
+
     .impact-value {
       font-size: 3rem;
     }
@@ -1593,7 +1589,7 @@
       <div class="calculator-section">
         <h3>Which IT challenges are you trying to conquer?</h3>
         <p>Select all that apply.</p>
-        
+
         <div class="pain-points-grid">
           <div class="pain-point-card" id="painPoint1Card">
             <label>
@@ -1668,7 +1664,7 @@
             </label>
           </div>
         </div>
-        
+
         <button id="continueToEnvironment" class="calculate-btn" style="width: 100%; max-width: 280px; margin: 1.5rem auto 0; display: block; padding: 1.25rem 1.75rem; font-size: 1.1rem; font-weight: 700; background: linear-gradient(135deg, #ff6b4c 0%, #ff8f70 100%); color: white; border: none; border-radius: 14px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 10px 30px rgba(255, 107, 76, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2); position: relative; overflow: hidden;">Continue</button>
       </div>
     </div>
@@ -1687,11 +1683,11 @@
           <button id="editFromQuestionnaire" class="edit-btn">Edit</button>
         </div>
       </div>
-      
+
       <div class="calculator-section">
         <h3>Tell us about your environment</h3>
         <p>We'll customize the service recommendations based on your technology stack</p>
-        
+
         <div class="question-block">
           <h4>Which Cloud Services do you use? <span class="question-subtitle-inline">Select all that apply</span></h4>
           <div class="tech-grid cloud-services">
@@ -1797,14 +1793,14 @@
       <div class="results-hero">
         <h1 class="results-title">The Path to Becoming an <span class="highlight-text">IT Legend</span></h1>
         <p class="results-subtitle">Your personalized roadmap to conquering IT challenges</p>
-        
+
         <div class="impact-display">
           <div class="impact-label">Estimated Annual Impact</div>
           <div class="impact-value" id="heroImpactDisplay">$0</div>
           <div class="impact-context" id="impactContext">For 1,000 users with Azure, M365</div>
         </div>
-        
-        <button class="scroll-to-details" id="scrollToDetails" onclick="scrollToDetailsSection()" style="display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 2rem; padding: 0.875rem 1.75rem; font-size: 1rem; font-weight: 600; background: transparent; color: #ffffff; border: 2px solid rgba(255, 255, 255, 0.2); border-radius: 50px; cursor: pointer; opacity: 0; transform: translateY(30px);">See Detailed Breakdown</button>
+
+        <button class="scroll-to-details" id="scrollToDetails" onclick="scrollToDetailsSection()" style="display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 2rem; padding: 0.875rem 1.75rem; font-size: 1rem; font-weight: 600; background: transparent; color: #ffffff; border: 2px solid rgba(255, 255, 255, 0.2); border-radius: 50px; cursor: pointer; opacity: 0; transform: translateY(30px);">See Detailed Roadmap</button>
       </div>
 
       <div class="conquered-pain-points">
@@ -1816,9 +1812,9 @@
 
       <!-- Lead Generation Gate -->
       <div class="lead-gate-section" id="leadGateSection">
-        <h2 class="lead-gate-title">Unlock Your Detailed IT Roadmap</h2>
-        <p class="lead-gate-subtitle">See your personalized service recommendations with specific cost breakdowns and implementation strategies</p>
-        
+        <h2 class="lead-gate-title">Unlock Your Detailed Impact Roadmap</h2>
+        <p class="lead-gate-subtitle">See your personalized service recommendations with specific impact metrics</p>
+
         <form class="lead-form" id="leadForm">
           <div class="form-row">
             <div class="form-group">
@@ -1830,12 +1826,12 @@
               <input type="text" class="form-input" id="lastName" placeholder="Doe" required>
             </div>
           </div>
-          
+
           <div class="form-group full-width">
             <label class="form-label">Work Email *</label>
             <input type="email" class="form-input" id="email" placeholder="john.doe@company.com" required>
           </div>
-          
+
           <div class="form-row">
             <div class="form-group">
               <label class="form-label">Company *</label>
@@ -1846,10 +1842,10 @@
               <input type="tel" class="form-input" id="phone" placeholder="+1 (555) 123-4567">
             </div>
           </div>
-          
+
           <button type="button" class="form-submit" id="submitLead" onclick="handleLeadSubmit()">Get My Detailed Roadmap</button>
         </form>
-        
+
         <div class="value-props">
           <div class="value-prop">
             <div class="value-prop-icon">📊</div>
@@ -1857,7 +1853,7 @@
           </div>
           <div class="value-prop">
             <div class="value-prop-icon">🎯</div>
-            <div class="value-prop-text">Priority ranking based on your impact</div>
+            <div class="value-prop-text">Priority ranking based on impact</div>
           </div>
           <div class="value-prop">
             <div class="value-prop-icon">📧</div>
@@ -1870,7 +1866,7 @@
       <div class="gated-content" id="gatedContent">
         <div id="exportableContent">
           <div class="table-section">
-            <h2 class="table-title">Your Detailed Impact Breakdown</h2>
+            <h2 class="table-title">Your Detailed Impact Roadmap</h2>
             <div class="impact-table">
               <div class="table-container">
                 <div class="table-row table-header-row">
@@ -1897,12 +1893,25 @@
           </div>
         </div>
       </div>
-      
+
       <div style="height: 4rem;"></div>
     </div>
   </div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script>
+    // Verify jsPDF loaded correctly
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        if (typeof window.jspdf === 'undefined' || !window.jspdf.jsPDF) {
+          console.error('jsPDF failed to load properly');
+        } else {
+          console.log('jsPDF loaded successfully');
+        }
+      }, 1000);
+    });
+  </script>
+<script>
     var painPointMapping = {
       1: ["aws", "ao", "co", "csp"], // Cloud Cost Chaos
       2: ["copilot"], // AI Overwhelm
@@ -1924,7 +1933,7 @@
       7: "Security Threats",
       8: "Microsoft Support Bottlenecks"
     };
-    
+
     var painPointTransforms = {
       1: { challenge: "Cloud Cost Chaos", resolved: "Cloud Cost Control" },
       2: { challenge: "AI Overwhelm", resolved: "AI Confidence" },
@@ -2020,23 +2029,26 @@
 
     function showNotification(message, type) {
       type = type || 'info';
-      
-      // Only show error notifications
-      if (type !== 'error') {
-        return;
-      }
-      
+
       var notification = document.createElement('div');
       notification.className = 'notification';
       notification.textContent = message;
-      notification.style.background = 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)';
       
+      // Set background color based on type
+      if (type === 'error') {
+        notification.style.background = 'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)';
+      } else if (type === 'success') {
+        notification.style.background = 'linear-gradient(135deg, #10b981 0%, #059669 100%)';
+      } else {
+        notification.style.background = 'linear-gradient(135deg, #ff6b4c 0%, #ff8f70 100%)';
+      }
+
       document.body.appendChild(notification);
-      
+
       setTimeout(function() {
         notification.classList.add('show');
       }, 100);
-      
+
       setTimeout(function() {
         notification.classList.remove('show');
         setTimeout(function() {
@@ -2051,7 +2063,7 @@
       for (var i = 1; i <= 8; i++) {
         var card = document.getElementById('painPoint' + i + 'Card');
         var checkbox = document.getElementById('painPoint' + i + 'Checkbox');
-        
+
         if (card && checkbox) {
           if (checkbox.checked) {
             card.classList.add('active');
@@ -2064,12 +2076,12 @@
 
     function updateTechCardStates() {
       var techOptions = ['azure', 'm365', 'aws', 'google', 'microsoft', 'ibm', 'oracle', 'sap', 'servicenow'];
-      
+
       for (var i = 0; i < techOptions.length; i++) {
         var option = techOptions[i];
         var card = document.getElementById(option + 'Card');
         var checkbox = document.getElementById(option + 'Checkbox');
-        
+
         if (card && checkbox) {
           if (checkbox.checked) {
             card.classList.add('active');
@@ -2085,7 +2097,7 @@
       var eaNo = document.getElementById('eaNo');
       var eaYesCard = document.getElementById('eaYesCard');
       var eaNoCard = document.getElementById('eaNoCard');
-      
+
       if (eaYes && eaYes.checked) {
         eaYesCard.classList.add('active');
         eaNoCard.classList.remove('active');
@@ -2122,7 +2134,7 @@
         'sapCheckbox': 'SAP',
         'servicenowCheckbox': 'ServiceNow'
       };
-      
+
       var checkboxIds = Object.keys(techMap);
       for (var i = 0; i < checkboxIds.length; i++) {
         var checkboxId = checkboxIds[i];
@@ -2131,14 +2143,14 @@
           selected.push(techMap[checkboxId]);
         }
       }
-      
+
       return selected;
     }
 
     function getEAStatus() {
       var eaYes = document.getElementById('eaYes');
       var eaNo = document.getElementById('eaNo');
-      
+
       if (eaYes && eaYes.checked) return true;
       if (eaNo && eaNo.checked) return false;
       return null;
@@ -2148,18 +2160,165 @@
       // Challenges summary - show all selected challenges
       var painPointTexts = userSelections.painPoints.map(function(id) {
         return painPointTransforms[id].challenge;
+        // Lead form submission
+      var leadForm = document.getElementById('leadForm');
+      var submitLeadBtn = document.getElementById('submitLead');
+
+      if (leadForm) {
+        leadForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          handleLeadSubmit();
+        });
+      }
+
+      if (submitLeadBtn) {
+        submitLeadBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          handleLeadSubmit();
+        });
+      }
+
+      // Scroll to details button
+      var scrollToDetailsBtn = document.getElementById('scrollToDetails');
+      if (scrollToDetailsBtn) {
+        scrollToDetailsBtn.addEventListener('click', function() {
+          var leadGateSection = document.getElementById('leadGateSection');
+          if (leadGateSection) {
+            leadGateSection.scrollIntoView({ 
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      }
+
+      // CTA button handlers
+      var scheduleCallBtn = document.getElementById('scheduleCall');
+      if (scheduleCallBtn) {
+        scheduleCallBtn.addEventListener('click', function() {
+          // In real implementation, this would open a calendar scheduling tool
+          window.open('https://calendly.com/crayon-demo', '_blank');
+        });
+      }
+
+      // Multiple methods to ensure download button works
+      var downloadHandlerAttached = false;
+      
+      // Method 1: Direct event delegation on document
+      document.addEventListener('click', function(e) {
+        console.log('Document click detected on element:', e.target.tagName, 'ID:', e.target.id, 'Class:', e.target.className);
+        
+        // Check for exact ID match
+        if (e.target && e.target.id === 'downloadResults') {
+          e.preventDefault();
+          e.stopPropagation();
+          console.log('✓ Download Results button clicked via delegation (exact match) - generating PDF');
+          generateAndDownloadPDF();
+          return;
+        }
+        
+        // Check if clicked element is inside the download button
+        var downloadBtn = e.target.closest('#downloadResults');
+        if (downloadBtn) {
+          e.preventDefault();
+          e.stopPropagation();
+          console.log('✓ Download Results button clicked via delegation (closest match) - generating PDF');
+          generateAndDownloadPDF();
+          return;
+        }
+        
+        // Check for download button by text content (fallback)
+        if (e.target.textContent && e.target.textContent.toLowerCase().includes('download results')) {
+          e.preventDefault();
+          e.stopPropagation();
+          console.log('✓ Download Results button clicked via text match - generating PDF');
+          generateAndDownloadPDF();
+          return;
+        }
       });
+
+      // Method 2: Function to setup direct event listener when button becomes available
+      function setupDownloadButton() {
+        var downloadResultsBtn = document.getElementById('downloadResults');
+        if (downloadResultsBtn && !downloadHandlerAttached) {
+          console.log('✓ Download Results button found, adding direct event listener');
+          
+          // Remove any existing listeners first
+          downloadResultsBtn.removeEventListener('click', handleDownloadClick);
+          
+          // Add new listener
+          downloadResultsBtn.addEventListener('click', handleDownloadClick);
+          downloadHandlerAttached = true;
+          
+          // Also add onclick as backup
+          downloadResultsBtn.onclick = function(e) {
+            console.log('✓ Download button onclick handler triggered');
+            handleDownloadClick(e);
+          };
+          
+          return true;
+        }
+        return false;
+      }
+      
+      // Dedicated click handler function
+      function handleDownloadClick(e) {
+        if (e) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+        console.log('✓ Download Results button clicked directly - generating PDF');
+        generateAndDownloadPDF();
+      }
+
+      // Method 3: Immediate setup attempt
+      setTimeout(function() {
+        setupDownloadButton();
+      }, 100);
+
+      // Method 4: Setup when gated content becomes available
+      var contentObserver = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+            if (mutation.target.classList.contains('unlocked')) {
+              console.log('✓ Gated content unlocked, attempting to setup download button');
+              setTimeout(function() {
+                if (setupDownloadButton()) {
+                  contentObserver.disconnect();
+                }
+              }, 200);
+            }
+          }
+        });
+      });
+      
+      var gatedContent = document.getElementById('gatedContent');
+      if (gatedContent) {
+        contentObserver.observe(gatedContent, { attributes: true });
+      }
+
+      // Method 5: Periodic check as ultimate fallback
+      var checkInterval = setInterval(function() {
+        var downloadBtn = document.getElementById('downloadResults');
+        if (downloadBtn && downloadBtn.offsetParent !== null && !downloadHandlerAttached) {
+          console.log('✓ Download button found via periodic check');
+          if (setupDownloadButton()) {
+            clearInterval(checkInterval);
+          }
+        }
+      }, 1000);
+    });
       var painPointsText = painPointTexts.join(', ');
       document.getElementById('painPointsSummary').textContent = painPointsText || 'None selected';
-      
+
       // Technologies summary
       var techText = userSelections.technologies.join(', ');
       document.getElementById('techSummary').textContent = techText;
-      
+
       // EA summary
       var eaText = userSelections.hasEA ? 'Yes' : 'No';
       document.getElementById('eaSummary').textContent = eaText;
-      
+
       // Organization size summary
       var seats = document.getElementById('seatsQuestionnaire').value;
       document.getElementById('sizeSummary').textContent = seats + ' users';
@@ -2181,34 +2340,34 @@
       document.getElementById('resultsSection').classList.remove('visible');
       currentStep = 1;
       updateProgressBar();
-      
+
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-    
+
     function editFromQuestionnaire() {
       document.getElementById('questionnaireSection').style.display = 'none';
       document.getElementById('painPointsSection').style.display = 'block';
       currentStep = 1;
       updateProgressBar();
-      
+
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     function continueToEnvironment() {
       userSelections.painPoints = getSelectedPainPoints();
-      
+
       if (userSelections.painPoints.length === 0) {
         showNotification('Please select at least one challenge.', 'error');
         return;
       }
-      
+
       // Update challenges summary for questionnaire
       var painPointTexts = userSelections.painPoints.map(function(id) {
         return painPointTransforms[id].challenge;
       });
       var painPointsText = painPointTexts.join(', ');
       document.getElementById('questionnairePainPointsSummary').textContent = painPointsText;
-      
+
       // Show questionnaire section directly
       document.getElementById('painPointsSection').style.display = 'none';
       document.getElementById('questionnaireSection').style.display = 'block';
@@ -2221,7 +2380,7 @@
       var avgSeats = 1000;
       var avgTech = ['Azure', 'M365', 'IBM'];
       var avgHasEA = false;
-      
+
       // Get recommended services based on pain points
       var recommendedServiceKeys = new Set();
       for (var i = 0; i < selectedPainPoints.length; i++) {
@@ -2233,19 +2392,19 @@
           }
         }
       }
-      
+
       // Filter services based on average tech stack
       var validServices = [];
       var allServiceKeys = Object.keys(serviceData);
-      
+
       for (var k = 0; k < allServiceKeys.length; k++) {
         var key = allServiceKeys[k];
         var service = serviceData[key];
-        
+
         if (!recommendedServiceKeys.has(key)) {
           continue;
         }
-        
+
         var isCompatible = false;
         for (var m = 0; m < avgTech.length; m++) {
           var tech = avgTech[m];
@@ -2257,11 +2416,11 @@
           }
           if (isCompatible) break;
         }
-        
+
         if (service.requiresEA && !avgHasEA) {
           isCompatible = false;
         }
-        
+
         if (isCompatible) {
           validServices.push({
             key: key,
@@ -2269,13 +2428,13 @@
           });
         }
       }
-      
+
       // Apply CSP bundling logic
       var hasCSP = false;
       var cspPainPoints = [1, 6]; // Cloud Cost Chaos and CSP Confusion
       var supportPainPoints = [8]; // Microsoft Support Bottlenecks
       var advisoryPainPoints = [3]; // License Complexity
-      
+
       // Check if CSP Care Pack is in valid services
       for (var p = 0; p < validServices.length; p++) {
         if (validServices[p].key === 'csp') {
@@ -2283,48 +2442,48 @@
           break;
         }
       }
-      
+
       if (hasCSP) {
         // Check if user selected CSP-related pain points AND support/advisory pain points
         var hasCSPPainPoints = cspPainPoints.some(function(painPoint) {
           return selectedPainPoints.indexOf(painPoint) !== -1;
         });
-        
+
         var hasSupportPainPoints = supportPainPoints.some(function(painPoint) {
           return selectedPainPoints.indexOf(painPoint) !== -1;
         });
-        
+
         var hasAdvisoryPainPoints = advisoryPainPoints.some(function(painPoint) {
           return selectedPainPoints.indexOf(painPoint) !== -1;
         });
-        
+
         // Filter out individual services that are included in CSP Care Pack
         validServices = validServices.filter(function(service) {
           // Always remove M365 Data Security & Governance and M365 Copilot if CSP is present
           if (service.key === 'ds' || service.key === 'copilot') {
             return false;
           }
-          
+
           // Remove Premium Support if user has CSP pain points AND support pain points
           if (service.key === 'ps' && hasCSPPainPoints && hasSupportPainPoints) {
             return false;
           }
-          
+
           // Remove License Advisory if user has CSP pain points AND advisory pain points
           if (service.key === 'la' && hasCSPPainPoints && hasAdvisoryPainPoints) {
             return false;
           }
-          
+
           return true;
         });
       }
-      
+
       // Calculate impact for valid services
       var tempUserSelections = userSelections.technologies;
       userSelections.technologies = avgTech; // Temporarily set for CSP calculation
       var calculations = calculateServiceData(avgSeats);
       userSelections.technologies = tempUserSelections; // Restore
-      
+
       var totalImpact = 0;
       for (var q = 0; q < validServices.length; q++) {
         var serviceKey = validServices[q].key;
@@ -2332,27 +2491,27 @@
           totalImpact += calculations[serviceKey].total;
         }
       }
-      
+
       return totalImpact;
     }
 
     function calculateImpact() {
       userSelections.technologies = getSelectedTechnologies();
       userSelections.hasEA = getEAStatus();
-      
+
       if (userSelections.technologies.length === 0) {
         showNotification('Please select at least one technology option.', 'error');
         return;
       }
-      
+
       if (userSelections.hasEA === null) {
         showNotification('Please select whether you have an Enterprise Agreement.', 'error');
         return;
       }
-      
+
       document.getElementById('questionnaireSection').style.display = 'none';
       showSummary();
-      
+
       var recommendedServiceKeys = new Set();
       for (var j = 0; j < userSelections.painPoints.length; j++) {
         var painPoint = userSelections.painPoints[j];
@@ -2366,15 +2525,15 @@
 
       var validServices = [];
       var allServiceKeys = Object.keys(serviceData);
-      
+
       for (var m = 0; m < allServiceKeys.length; m++) {
         var key = allServiceKeys[m];
         var service = serviceData[key];
-        
+
         if (!recommendedServiceKeys.has(key)) {
           continue;
         }
-        
+
         var isCompatible = false;
         for (var n = 0; n < userSelections.technologies.length; n++) {
           var userTech = userSelections.technologies[n];
@@ -2386,11 +2545,11 @@
           }
           if (isCompatible) break;
         }
-        
+
         if (service.requiresEA && !userSelections.hasEA) {
           isCompatible = false;
         }
-        
+
         if (isCompatible) {
           validServices.push({
             key: key,
@@ -2405,7 +2564,7 @@
       var cspPainPoints = [1, 6]; // Cloud Cost Chaos and CSP Confusion
       var supportPainPoints = [8]; // Microsoft Support Bottlenecks
       var advisoryPainPoints = [3]; // License Complexity
-      
+
       // Check if CSP Care Pack is in valid services
       for (var p = 0; p < validServices.length; p++) {
         if (validServices[p].key === 'csp') {
@@ -2413,38 +2572,38 @@
           break;
         }
       }
-      
+
       if (hasCSP) {
         // Check if user selected CSP-related pain points AND support/advisory pain points
         var hasCSPPainPoints = cspPainPoints.some(function(painPoint) {
           return userSelections.painPoints.indexOf(painPoint) !== -1;
         });
-        
+
         var hasSupportPainPoints = supportPainPoints.some(function(painPoint) {
           return userSelections.painPoints.indexOf(painPoint) !== -1;
         });
-        
+
         var hasAdvisoryPainPoints = advisoryPainPoints.some(function(painPoint) {
           return userSelections.painPoints.indexOf(painPoint) !== -1;
         });
-        
+
         // Filter out individual services that are included in CSP Care Pack
         validServices = validServices.filter(function(service) {
           // Always remove M365 Data Security & Governance and M365 Copilot if CSP is present
           if (service.key === 'ds' || service.key === 'copilot') {
             return false;
           }
-          
+
           // Remove Premium Support if user has CSP pain points AND support pain points
           if (service.key === 'ps' && hasCSPPainPoints && hasSupportPainPoints) {
             return false;
           }
-          
+
           // Remove License Advisory if user has CSP pain points AND advisory pain points
           if (service.key === 'la' && hasCSPPainPoints && hasAdvisoryPainPoints) {
             return false;
           }
-          
+
           return true;
         });
       }
@@ -2456,7 +2615,7 @@
 
       var seats = parseNumberInput(document.getElementById('seatsQuestionnaire').value);
       var calculations = calculateServiceData(seats);
-      
+
       for (var q = 0; q < validServices.length; q++) {
         validServices[q].data = calculations[validServices[q].key];
       }
@@ -2529,7 +2688,7 @@
       calculations.ao.total = calculations.ao.itOpsSavings + calculations.ao.governanceSavings;
 
       calculations.co = {
-        wasteSavings: seats * 1200 * 0.15,
+        wasteSavings: seats * 1200 * 0.2,
         costAvoidance: seats * 1200 * 0.05,
         total: 0
       };
@@ -2557,8 +2716,8 @@
       calculations.la.total = calculations.la.costAvoidance + calculations.la.adminSavings;
 
       calculations.as = {
-        auditSavings: seats * 1200 * 0.22 * 0.15 * 0.60,
-        adminSavings: seats * 0.07 * 60,
+        auditSavings: seats * 2500 * 0.68 * 0.15 * 0.60,
+        adminSavings: seats * .3 * 60,
         total: 0
       };
       calculations.as.total = calculations.as.auditSavings + calculations.as.adminSavings;
@@ -2584,11 +2743,11 @@
         cspDiscount: seats * 120,
         total: 0
       };
-      
+
       // Base services that apply regardless of M365
       var supportValue = seats * 12; // Support services
       var advisoryValue = seats * 6; // Advisory services
-      
+
       if (hasM365) {
         // Include Security and Copilot services if M365 is selected
         var securityValue = seats * 17.82; // Security services for M365
@@ -2598,7 +2757,7 @@
         // Only include Support and Advisory services if no M365
         calculations.csp.bundledServices = supportValue + advisoryValue;
       }
-      
+
       calculations.csp.total = calculations.csp.bundledServices + calculations.csp.cspDiscount;
 
       return calculations;
@@ -2627,7 +2786,7 @@
           {
             value: '35% risk reduction',
             description: 'Risk reduction with M365 Threat Protection',
-            source: '<a href="https://www.microsoft.com" target="_blank">Microsoft TEI</a>'
+            source: '<a href="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/TEI-of-MSFT-Security-FINAL.pdf" target="_blank">Forrester TEI</a>'
           }
         ],
         ps: [
@@ -2646,12 +2805,12 @@
           {
             value: formatCurrency(data.infraSavings),
             description: '$1,475/user/year on-premises cost, 40% savings',
-            source: '<a href="https://azure.microsoft.com" target="_blank">IDC Azure Study</a>'
+            source: '<a href="https://www.cgi.com/sites/default/files/2024-10/cgi-idc-business-value-migrating-modernizing-microsoft-azure.pdf" target="_blank">IDC Azure Study</a>'
           },
           {
             value: formatCurrency(data.userProductivity),
             description: '3% productivity gain on $75K salary',
-            source: '<a href="https://info.microsoft.com" target="_blank">Forrester TEI</a>'
+            source: '<a href="https://www.cgi.com/sites/default/files/2024-10/cgi-idc-business-value-migrating-modernizing-microsoft-azure.pdf" target="_blank">Forrester TEI</a>'
           }
         ],
         ao: [
@@ -2663,19 +2822,19 @@
           {
             value: formatCurrency(data.governanceSavings),
             description: '$1,200/user Azure spend, 12% governance savings',
-            source: '<a href="https://info.flexera.com" target="_blank">Flexera Report</a>'
+            source: '<a href="https://info.flexera.com/CM-REPORT-State-of-the-Cloud" target="_blank">Flexera Report</a>'
           }
         ],
         co: [
           {
             value: formatCurrency(data.wasteSavings),
-            description: '$1,200/user cloud spend, 15% waste reduction',
-            source: '<a href="https://info.flexera.com" target="_blank">Flexera Report</a>'
+            description: '$1,200/user cloud spend, 20% waste reduction',
+            source: '<a href="https://info.flexera.com/CM-REPORT-State-of-the-Cloud" target="_blank">Flexera Report</a>'
           },
           {
             value: formatCurrency(data.costAvoidance),
             description: '5% proactive cost avoidance on cloud spend',
-            source: '<a href="https://www.idc.com" target="_blank">IDC Study</a>'
+            source: '<a href="https://info.idc.com/rs/081-ATC-910/images/IDC-Control-Cloud-Costs-and-Expand-Transparency-with-FinOps-AP.pdf" target="_blank">IDC Study</a>'
           }
         ],
         aws: [
@@ -2687,50 +2846,50 @@
           {
             value: formatCurrency(data.optimizationSavings),
             description: '15% ongoing optimization savings',
-            source: '<a href="https://info.flexera.com" target="_blank">Flexera Report</a>'
+            source: '<a href="https://info.flexera.com/CM-REPORT-State-of-the-Cloud" target="_blank">Flexera Report</a>'
           }
         ],
         lo: [
           {
             value: formatCurrency(data.licenseSavings),
             description: '$1,200/user annual license spend, 25% savings',
-            source: '<a href="https://info.flexera.com" target="_blank">Flexera ITAM Report</a>'
+            source: '<a href="https://info.flexera.com/ITAM-REPORT-State-of-IT-Asset-Management" target="_blank">Flexera ITAM</a>'
           },
           {
             value: formatCurrency(data.complianceAvoidance),
             description: '5% compliance risk avoidance',
-            source: '<a href="https://info.flexera.com" target="_blank">Flexera Report</a>'
+            source: '<a href="https://info.flexera.com/ITAM-REPORT-State-of-IT-Asset-Management" target="_blank">Flexera Report</a>'
           }
         ],
         la: [
           {
             value: formatCurrency(data.costAvoidance),
             description: '$1,200/user license spend, 4% cost avoidance',
-            source: '<a href="https://info.flexera.com" target="_blank">Flexera ITAM 2024</a>'
+            source: '<a href="https://info.flexera.com/ITAM-REPORT-State-of-IT-Asset-Management" target="_blank">Flexera ITAM</a>'
           },
           {
             value: formatCurrency(data.adminSavings),
             description: (seats * 0.0432).toFixed(0) + ' hours saved annually, $60/hour IT rate',
-            source: '<a href="https://info.flexera.com" target="_blank">Flexera Report</a>'
+            source: '<a href="https://info.flexera.com/ITAM-REPORT-State-of-IT-Asset-Management" target="_blank">Flexera ITAM</a>'
           }
         ],
         as: [
           {
             value: formatCurrency(data.auditSavings),
-            description: '22% audit chance, 15% avg true-up, 60% cost avoidance',
-            source: '<a href="https://www.gartner.com" target="_blank">Gartner Report</a>'
+            description: '68% audit chance, 15% avg true-up, 60% cost avoidance',
+            source: '<a href="https://www.gartner.com/en/documents/2835817" target="_blank">Gartner Report</a>'
           },
           {
             value: formatCurrency(data.adminSavings),
-            description: (seats * 0.07).toFixed(0) + ' hours saved annually, $60/hour IT rate',
-            source: '<a href="https://www.gartner.com" target="_blank">Gartner Study</a>'
+            description: (seats * .3).toFixed(0) + ' hours saved annually, $60/hour IT rate',
+            source: '<a href="https://www.gartner.com/en/documents/2835817" target="_blank">Gartner Study</a>'
           }
         ],
         ea: [
           {
             value: formatCurrency(data.licenseOptimization),
             description: '$1,200/user license spend, 30% optimization savings',
-            source: '<a href="https://info.flexera.com" target="_blank">Flexera ITAM 2024</a>'
+            source: '<a href="https://info.flexera.com/ITAM-REPORT-State-of-IT-Asset-Management" target="_blank">Flexera ITAM</a>'
           },
           {
             value: formatCurrency(data.adminSavings),
@@ -2742,19 +2901,19 @@
           {
             value: formatCurrency(data.timeValueUplift),
             description: '1.5 month acceleration of 5% productivity gains',
-            source: '<a href="https://info.microsoft.com" target="_blank">Forrester TEI Copilot</a>'
+            source: '<a href="https://tei.forrester.com/go/microsoft/M365Copilot/?lang=en-us" target="_blank">Forrester TEI Copilot</a>'
           },
           {
             value: 'Full potential: ' + formatCurrency(data.fullScalePotential) + '/year',
             description: 'Total annual productivity value with complete adoption',
-            source: '<a href="https://info.microsoft.com" target="_blank">Forrester TEI</a>'
+            source: '<a href="https://tei.forrester.com/go/microsoft/M365Copilot/?lang=en-us" target="_blank">Forrester TEI</a>'
           }
         ],
         csp: [
           {
             value: formatCurrency(data.bundledServices),
             description: userSelections.technologies.indexOf('M365') !== -1 ? 
-              'Combined value: Security + Support + Advisory + Copilot services' : 
+              'Combined value: Security + Support + Advisory + Copilot readiness' : 
               'Combined value: Support + Advisory services',
             source: '<a href="https://www.ibm.com/reports/data-breach" target="_blank">IBM Report</a>'
           },
@@ -2770,49 +2929,49 @@
 
     function generateResults(sortedServices, seats) {
       var totalImpact = 0;
-      
+
       for (var i = 0; i < sortedServices.length; i++) {
         totalImpact += sortedServices[i].data.total;
       }
 
       // Update hero impact display
       document.getElementById('heroImpactDisplay').textContent = formatCurrency(totalImpact);
-      
+
       // Update context
       var techList = userSelections.technologies.join(', ');
       document.getElementById('impactContext').textContent = 'For ' + seats.toLocaleString() + ' users with ' + techList;
-      
+
       // Populate conquered pain points
       var painPointsList = document.getElementById('conqueredPainPointsList');
       painPointsList.innerHTML = '';
-      
+
       // Store observer setup for after initial render
       var observerSetupData = [];
-      
+
       for (var p = 0; p < userSelections.painPoints.length; p++) {
         var painPointId = userSelections.painPoints[p];
         var painPointDiv = document.createElement('div');
         painPointDiv.className = 'pain-point-item';
         painPointDiv.style.animationDelay = (p * 0.1 + 1) + 's';
         painPointDiv.setAttribute('data-pain-point-id', painPointId);
-        
+
         var transform = painPointTransforms[painPointId];
-        
+
         // Initially show only the challenge text
         var textSpan = document.createElement('span');
         textSpan.className = 'pain-point-text';
         textSpan.innerHTML = '<span class="challenge-text">' + transform.challenge + '</span>';
-        
+
         painPointDiv.appendChild(textSpan);
         painPointsList.appendChild(painPointDiv);
-        
+
         // Store data for later observer setup
         observerSetupData.push({
           element: painPointDiv,
           transform: transform
         });
       }
-      
+
       // Set up the transformation after a delay to ensure proper rendering
       setTimeout(function() {
         // Add resolved text to each item
@@ -2820,20 +2979,20 @@
           var textSpan = data.element.querySelector('.pain-point-text');
           var resolvedSpan = document.createElement('span');
           resolvedSpan.className = 'resolved-text';
-          
+
           var parts = data.transform.resolved.split(' ');
           var baseText = parts.slice(0, -1).join(' ');
           var lastWord = parts[parts.length - 1];
-          
+
           resolvedSpan.innerHTML = baseText + ' <span class="resolved-word">' + lastWord + '</span>';
           textSpan.appendChild(resolvedSpan);
         });
-        
+
         // Set up Intersection Observer with a delay to avoid initial trigger
         setTimeout(function() {
           var transformTriggered = false;
           var conqueredSection = document.querySelector('.conquered-pain-points');
-          
+
           if (conqueredSection) {
             var observer = new IntersectionObserver(function(entries) {
               entries.forEach(function(entry) {
@@ -2857,7 +3016,7 @@
               threshold: 0.6, // Trigger when 60% of the section is visible
               rootMargin: '0px 0px -100px 0px' // Add negative margin to ensure user has scrolled
             });
-            
+
             observer.observe(conqueredSection);
           }
         }, 2000); // Wait 2 seconds before setting up observer to avoid initial trigger
@@ -2873,7 +3032,7 @@
         row.style.animationDelay = (j * 0.1 + 1.4) + 's';
 
         var metricsBreakdown = buildMetricsBreakdown(service.key, service.data, seats);
-        
+
         var metricsHTML = '';
         for (var k = 0; k < metricsBreakdown.length; k++) {
           var metric = metricsBreakdown[k];
@@ -2886,7 +3045,7 @@
         if (maxImpactServices.indexOf(service.key) !== -1) {
           serviceNameHTML += '<div style="background: linear-gradient(135deg, #ff6b4c 0%, #ff8f70 100%); color: white; font-size: 0.7rem; font-weight: 700; padding: 0.25rem 0.5rem; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 0.5rem; display: inline-block;">MAX IMPACT PACK</div>';
         }
-        
+
         // Add special styling for top 3 services
         var rankClass = j < 3 ? 'rank-number top-rank' : 'rank-number';
 
@@ -2898,8 +3057,7 @@
       document.getElementById('resultsSection').classList.add('visible');
       currentStep = 3;
       updateProgressBar();
-      showNotification('Your path to IT Legend status is ready!', 'success');
-      
+
       // Animate the button with the results
       setTimeout(function() {
         var scrollBtn = document.getElementById('scrollToDetails');
@@ -2909,7 +3067,7 @@
           scrollBtn.style.transform = 'translateY(0)';
         }
       }, 800);
-      
+
       // Override button styles on hover
       setTimeout(function() {
         var scrollBtn = document.getElementById('scrollToDetails');
@@ -2921,7 +3079,7 @@
             this.style.animation = 'none';
             this.style.opacity = '1';
           });
-          
+
           scrollBtn.addEventListener('mouseleave', function() {
             this.style.background = 'transparent';
             this.style.borderColor = 'rgba(255, 255, 255, 0.2)';
@@ -2930,7 +3088,7 @@
           });
         }
       }, 1000);
-      
+
       // Smooth scroll to results
       setTimeout(function() {
         document.getElementById('resultsSection').scrollIntoView({ 
@@ -2945,210 +3103,349 @@
       if (leadGateSection) {
         var yOffset = -40; // Reduced cushion to 40px for better visibility
         var y = leadGateSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
-        
+
         window.scrollTo({
           top: y,
           behavior: 'smooth'
         });
       }
     }
-    
+
     function handleLeadSubmit() {
       var firstName = document.getElementById('firstName').value;
       var lastName = document.getElementById('lastName').value;
       var email = document.getElementById('email').value;
       var company = document.getElementById('company').value;
       var phone = document.getElementById('phone').value;
-      
+
       // Basic validation
       if (!firstName || !lastName || !email || !company) {
         showNotification('Please fill in all required fields.', 'error');
         return false;
       }
-      
+
       // Email validation
       var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(email)) {
         showNotification('Please enter a valid email address.', 'error');
         return false;
       }
-      
-      // Calculate total estimated impact
-      var totalImpact = 0;
+
+      // Calculate estimated impact for submission
+      var estimatedImpact = 0;
+      var heroImpactElement = document.getElementById('heroImpactDisplay');
+      if (heroImpactElement) {
+        var impactText = heroImpactElement.textContent.replace(/[$,]/g, '');
+        estimatedImpact = parseFloat(impactText) || 0;
+      }
+
+      // Get recommended services
       var recommendedServices = [];
-      
-      // Get the calculated services from the results (if they exist)
+
+      // Extract service names from the results table if available
       var tableRows = document.querySelectorAll('#tableContent .table-row');
-      tableRows.forEach(function(row) {
-        var serviceName = row.querySelector('.service-name');
-        var impactTotal = row.querySelector('.impact-total');
-        
-        if (serviceName && impactTotal) {
-          // Extract service name without the badge
-          var serviceText = serviceName.textContent.replace('MAX IMPACT PACK', '').trim();
-          recommendedServices.push(serviceText);
-          
-          // Extract impact value
-          var impactText = impactTotal.textContent.replace(/[$,]/g, '');
-          totalImpact += parseFloat(impactText) || 0;
-        }
-      });
-      
-      // Convert pain points and technologies to comma-separated strings
-      var painPointTexts = userSelections.painPoints.map(function(id) {
-        return painPointTransforms[id].challenge;
-      }).join(', ');
-      
-      var techText = userSelections.technologies.join(', ');
-      var recommendedServicesText = recommendedServices.join(', ');
-      
-      // Prepare data for Power Automate flow
-      var flowData = {
-        FirstName: firstName,
-        LastName: lastName,
-        Email: email,
-        Company: company,
-        Phone: phone || '',
-        PainPoints: painPointTexts,
-        Technologies: techText,
-        HasEA: userSelections.hasEA ? 'Yes' : 'No',
-        Seats: parseNumberInput(document.getElementById('seatsQuestionnaire').value),
-        SubmissionDate: new Date().toISOString(),
-        EstimatedImpact: Math.round(totalImpact),
-        RecommendedServices: recommendedServicesText
+      if (tableRows.length > 0) {
+        tableRows.forEach(function(row, index) {
+          var serviceNameElement = row.querySelector('.service-name');
+          var serviceName = serviceNameElement.textContent.trim();
+          // Remove "MAX IMPACT PACK" text if present
+          serviceName = serviceName.replace(/MAX IMPACT PACK/g, '').trim();
+          recommendedServices.push(serviceName);
+        });
+      }
+
+      // Prepare lead data
+      var leadData = {
+        firstName: firstName,
+        lastName: lastName,
+        email: email,
+        company: company,
+        phone: phone,
+        painPoints: userSelections.painPoints || [],
+        technologies: userSelections.technologies || [],
+        hasEA: userSelections.hasEA,
+        seats: parseNumberInput(document.getElementById('seatsQuestionnaire').value),
+        estimatedImpact: estimatedImpact,
+        recommendedServices: recommendedServices,
+        timestamp: new Date().toISOString()
       };
-      
-      // Show loading state
+
+      console.log('Submitting lead data:', leadData);
+
+      // Disable submit button to prevent double submission
       var submitBtn = document.getElementById('submitLead');
-      var originalBtnText = submitBtn.textContent;
-      submitBtn.textContent = 'Submitting...';
+      var originalText = submitBtn.textContent;
       submitBtn.disabled = true;
-      
-      // Log the data being sent (for debugging)
-      console.log('Submitting lead data:', flowData);
-      
-      // Send data to Power Automate flow
-      var flowUrl = 'https://prod-205.westeurope.logic.azure.com:443/workflows/0b942cf968a74602aa5c06135748178d/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Wh28p1qU44qR5gGA9TjSbtNnaRNVTYOpSu6MQ3NotJc';
-      
-      // Try to send to Power Automate
-      fetch(flowUrl, {
+      submitBtn.textContent = 'Submitting...';
+
+      // Send data to server
+      fetch('/api/submit-lead', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Accept': 'application/json'
         },
-        mode: 'no-cors', // This bypasses CORS but limits response access
-        body: JSON.stringify(flowData)
+        body: JSON.stringify(leadData)
       })
-      .then(function() {
-        // With no-cors mode, we can't read the response, but the request should go through
-        console.log('Lead data sent to Power Automate (no-cors mode)');
+      .then(function(response) {
+        console.log('Response status:', response.status);
+        console.log('Response ok:', response.ok);
         
-        // Success! Hide the gate and show the detailed content
-        document.getElementById('leadGateSection').style.display = 'none';
-        document.getElementById('gatedContent').classList.add('unlocked');
+        // Always try to get the response body
+        return response.text().then(function(text) {
+          console.log('Response text:', text);
+          
+          let data;
+          try {
+            data = JSON.parse(text);
+          } catch (e) {
+            console.error('Failed to parse response as JSON:', e);
+            throw new Error('Server returned invalid response: ' + text);
+          }
+          
+          if (!response.ok) {
+            throw new Error(data.message || 'Server error: ' + response.status);
+          }
+          
+          return data;
+        });
+      })
+      .then(function(data) {
+        console.log('Success response:', data);
         
-        // Smooth scroll to the detailed table
-        setTimeout(function() {
-          document.getElementById('exportableContent').scrollIntoView({ 
-            behavior: 'smooth',
-            block: 'start'
-          });
-        }, 300);
-        
-        // Store data locally as backup
-        try {
-          var storedLeads = JSON.parse(localStorage.getItem('itLegendLeads') || '[]');
-          storedLeads.push(flowData);
-          localStorage.setItem('itLegendLeads', JSON.stringify(storedLeads));
-          console.log('Lead data also saved locally as backup');
-        } catch (e) {
-          console.log('Could not save to localStorage:', e);
+        if (data.success) {
+          // Success - show notification and unlock content
+          showNotification('Thank you! Your Detailed Impact Roadmap is ready.', 'success');
+          
+          // Hide the gate and show the detailed content
+          document.getElementById('leadGateSection').style.display = 'none';
+          document.getElementById('gatedContent').classList.add('unlocked');
+
+          // Smooth scroll to the detailed table
+          setTimeout(function() {
+            var exportableContent = document.getElementById('exportableContent');
+            if (exportableContent) {
+              exportableContent.scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+              });
+            }
+          }, 300);
+        } else {
+          throw new Error(data.message || 'Submission failed - server returned success: false');
         }
       })
       .catch(function(error) {
-        console.error('Error submitting to Power Automate:', error);
+        console.error('Error submitting lead:', error);
+        console.error('Error details:', {
+          message: error.message,
+          stack: error.stack
+        });
         
-        // Try alternative method - create a form post
-        try {
-          // Create a hidden form and submit it
-          var form = document.createElement('form');
-          form.method = 'POST';
-          form.action = flowUrl;
-          form.target = '_blank';
-          form.style.display = 'none';
-          
-          var input = document.createElement('input');
-          input.type = 'hidden';
-          input.name = 'data';
-          input.value = JSON.stringify(flowData);
-          form.appendChild(input);
-          
-          document.body.appendChild(form);
-          form.submit();
-          document.body.removeChild(form);
-          
-          console.log('Attempted form-based submission as fallback');
-        } catch (formError) {
-          console.error('Form submission also failed:', formError);
+        var errorMessage = 'There was an error submitting your information. Please try again.';
+        if (error.message && error.message.length < 100) {
+          errorMessage = error.message;
         }
         
-        // Still show the content even if submission fails
-        document.getElementById('leadGateSection').style.display = 'none';
-        document.getElementById('gatedContent').classList.add('unlocked');
-        
-        setTimeout(function() {
-          document.getElementById('exportableContent').scrollIntoView({ 
-            behavior: 'smooth',
-            block: 'start'
-          });
-        }, 300);
-        
-        // Store failed submission for retry
-        try {
-          var failedSubmissions = JSON.parse(localStorage.getItem('itLegendFailedSubmissions') || '[]');
-          failedSubmissions.push({
-            data: flowData,
-            timestamp: new Date().toISOString(),
-            error: error.toString()
-          });
-          localStorage.setItem('itLegendFailedSubmissions', JSON.stringify(failedSubmissions));
-          console.log('Failed submission saved for manual processing');
-        } catch (e) {
-          console.log('Could not save failed submission:', e);
-        }
+        showNotification(errorMessage, 'error');
       })
       .finally(function() {
-        // Reset button state
-        submitBtn.textContent = originalBtnText;
+        // Re-enable submit button
         submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
       });
-      
+
       return false;
     }
-    
+
+    function generateAndDownloadPDF() {
+      console.log('PDF generation started');
+      
+      try {
+        // Check if jsPDF is loaded
+        if (typeof window.jspdf === 'undefined' || !window.jspdf.jsPDF) {
+          console.error('jsPDF not available:', typeof window.jspdf);
+          showNotification('PDF library is loading. Please wait a moment and try again.', 'error');
+          return;
+        }
+        
+        console.log('jsPDF is available, creating document');
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+        
+        showNotification('Generating PDF report...', 'info');
+        
+        // Set up document styling
+        const pageWidth = doc.internal.pageSize.getWidth();
+        const pageHeight = doc.internal.pageSize.getHeight();
+        const margin = 20;
+        const lineHeight = 7;
+        let yPosition = margin;
+        
+        // Helper function to add text with word wrapping
+        function addText(text, fontSize = 12, isBold = false, color = [0, 0, 0]) {
+          doc.setFontSize(fontSize);
+          doc.setFont(undefined, isBold ? 'bold' : 'normal');
+          doc.setTextColor(color[0], color[1], color[2]);
+          
+          const textLines = doc.splitTextToSize(text, pageWidth - (margin * 2));
+          
+          // Check if we need a new page
+          if (yPosition + (textLines.length * lineHeight) > pageHeight - margin) {
+            doc.addPage();
+            yPosition = margin;
+          }
+          
+          doc.text(textLines, margin, yPosition);
+          yPosition += textLines.length * lineHeight + 5;
+          return yPosition;
+        }
+        
+        // Header
+        addText('IT Legend Success Plan - Detailed Impact Report', 20, true, [255, 107, 76]);
+        yPosition += 5;
+        
+        // Get user information
+        const firstName = document.getElementById('firstName')?.value || 'Unknown';
+        const lastName = document.getElementById('lastName')?.value || 'User';
+        const company = document.getElementById('company')?.value || 'Unknown Company';
+        const seats = document.getElementById('seatsQuestionnaire')?.value || '1,000';
+        
+        // Company and user info
+        addText(`Prepared for: ${firstName} ${lastName}`, 14, true);
+        addText(`Company: ${company}`, 12);
+        addText(`Organization Size: ${seats} users`, 12);
+        addText(`Report Generated: ${new Date().toLocaleDateString()}`, 12);
+        yPosition += 10;
+        
+        // Executive Summary
+        addText('Executive Summary', 16, true, [255, 107, 76]);
+        
+        // Get total impact
+        const heroImpactElement = document.getElementById('heroImpactDisplay');
+        const totalImpact = heroImpactElement ? heroImpactElement.textContent : '$0';
+        addText(`Estimated Annual Impact: ${totalImpact}`, 14, true);
+        
+        // Pain Points Conquered
+        const painPointElements = document.querySelectorAll('.pain-point-item');
+        if (painPointElements.length > 0) {
+          addText('Challenges Addressed:', 12, true);
+          painPointElements.forEach(function(element) {
+            const challengeText = element.querySelector('.challenge-text')?.textContent;
+            if (challengeText) {
+              addText(`• ${challengeText}`, 11);
+            }
+          });
+          yPosition += 5;
+        }
+        
+        // Technologies
+        const techText = userSelections.technologies?.join(', ') || 'Not specified';
+        addText('Technology Stack:', 12, true);
+        addText(techText, 11);
+        yPosition += 10;
+        
+        // Service Recommendations
+        addText('Recommended Services & Impact Analysis', 16, true, [255, 107, 76]);
+        yPosition += 5;
+        
+        // Get table data
+        const tableRows = document.querySelectorAll('#tableContent .table-row');
+        
+        tableRows.forEach(function(row, index) {
+          const rank = index + 1;
+          const serviceName = row.querySelector('.service-name')?.textContent?.replace(/MAX IMPACT PACK/g, '').trim();
+          const solutionText = row.querySelector('.solution-text')?.textContent;
+          const impactTotal = row.querySelector('.impact-total')?.textContent;
+          
+          if (serviceName && solutionText && impactTotal) {
+            // Service header
+            addText(`${rank}. ${serviceName}`, 13, true);
+            addText(`Annual Impact: ${impactTotal}`, 12, true, [34, 139, 34]);
+            
+            // Solution description
+            addText('Solution:', 11, true);
+            addText(solutionText, 10);
+            
+            // Impact metrics
+            const metrics = row.querySelectorAll('.metric-component');
+            if (metrics.length > 0) {
+              addText('Impact Breakdown:', 11, true);
+              metrics.forEach(function(metric) {
+                const value = metric.querySelector('.value')?.textContent;
+                const description = metric.querySelector('.description')?.textContent;
+                if (value && description) {
+                  addText(`• ${value}: ${description}`, 9);
+                }
+              });
+            }
+            
+            yPosition += 10;
+          }
+        });
+        
+        // Next Steps
+        if (yPosition > pageHeight - 100) {
+          doc.addPage();
+          yPosition = margin;
+        }
+        
+        addText('Next Steps', 16, true, [255, 107, 76]);
+        addText('1. Schedule a consultation with Crayon to discuss your specific requirements', 11);
+        addText('2. Prioritize services based on your immediate business needs', 11);
+        addText('3. Develop an implementation roadmap aligned with your goals', 11);
+        addText('4. Begin your journey to becoming an IT Legend!', 11);
+        
+        yPosition += 15;
+        addText('Contact Information', 14, true);
+        addText('Ready to get started? Contact Crayon to schedule your consultation.', 11);
+        addText('Visit: www.crayon.com', 11, false, [0, 0, 255]);
+        
+        // Generate filename
+        const timestamp = new Date().toISOString().split('T')[0];
+        const cleanCompany = company.replace(/[^a-zA-Z0-9]/g, '') || 'Company';
+        const filename = `IT-Legend-Report-${cleanCompany}-${timestamp}.pdf`;
+        
+        console.log('About to save PDF with filename:', filename);
+        
+        // Download the PDF
+        doc.save(filename);
+        
+        console.log('PDF save command executed');
+        
+        // Show success notification after a brief delay to ensure download started
+        setTimeout(function() {
+          showNotification('PDF report downloaded successfully!', 'success');
+        }, 500);
+        
+      } catch (error) {
+        console.error('Error generating PDF:', error);
+        console.error('Error stack:', error.stack);
+        showNotification('Error generating PDF. Please try again.', 'error');
+      }
+    }
+
     document.addEventListener('DOMContentLoaded', function() {
       updateProgressBar();
       updatePainPointCardStates();
       updateTechCardStates();
       updateEACardStates();
-      
+
       // Challenge checkboxes
       for (var i = 1; i <= 8; i++) {
         (function(index) {
           var painPointCard = document.getElementById('painPoint' + index + 'Card');
           var painPointCheckbox = document.getElementById('painPoint' + index + 'Checkbox');
-          
+
           if (painPointCard && painPointCheckbox) {
             // Remove the label's default behavior and handle clicks on the card
             var label = painPointCard.querySelector('label');
             if (label) {
               label.style.pointerEvents = 'none';
             }
-            
+
             // Make the checkbox itself still clickable
             painPointCheckbox.style.pointerEvents = 'auto';
-            
+
             // Add click handler to the entire card
             painPointCard.addEventListener('click', function(e) {
               e.stopPropagation();
@@ -3156,7 +3453,7 @@
               painPointCheckbox.checked = !painPointCheckbox.checked;
               updatePainPointCardStates();
             });
-            
+
             // Prevent double-toggle when clicking checkbox directly
             painPointCheckbox.addEventListener('click', function(e) {
               e.stopPropagation();
@@ -3165,7 +3462,7 @@
           }
         })(i);
       }
-      
+
       // Continue button from challenges to questionnaire
       var continueToEnvBtn = document.getElementById('continueToEnvironment');
       if (continueToEnvBtn) {
@@ -3176,7 +3473,7 @@
       } else {
         console.error('Continue button not found');
       }
-      
+
       // Back button
       var backToChallengesBtn = document.getElementById('backToChallenges');
       if (backToChallengesBtn) {
@@ -3188,37 +3485,37 @@
           window.scrollTo({ top: 0, behavior: 'smooth' });
         });
       }
-      
+
       // Edit button from questionnaire
       var editFromQuestionnaireBtn = document.getElementById('editFromQuestionnaire');
       if (editFromQuestionnaireBtn) {
         editFromQuestionnaireBtn.addEventListener('click', editFromQuestionnaire);
       }
-      
+
       // Tech checkboxes
       var techCheckboxes = ['azure', 'm365', 'aws', 'google', 'microsoft', 'ibm', 'oracle', 'sap', 'servicenow'];
       for (var j = 0; j < techCheckboxes.length; j++) {
         (function(tech) {
           var card = document.getElementById(tech + 'Card');
           var checkbox = document.getElementById(tech + 'Checkbox');
-          
+
           if (card && checkbox) {
             // Remove the label's default behavior
             var label = card.querySelector('label');
             if (label) {
               label.style.pointerEvents = 'none';
             }
-            
+
             // Make the checkbox itself still clickable
             checkbox.style.pointerEvents = 'auto';
-            
+
             // Add click handler to the entire card
             card.addEventListener('click', function(e) {
               e.stopPropagation();
               checkbox.checked = !checkbox.checked;
               updateTechCardStates();
             });
-            
+
             // Prevent double-toggle when clicking checkbox directly
             checkbox.addEventListener('click', function(e) {
               e.stopPropagation();
@@ -3227,16 +3524,16 @@
           }
         })(techCheckboxes[j]);
       }
-      
+
       // EA radio buttons
       var eaYes = document.getElementById('eaYes');
       var eaNo = document.getElementById('eaNo');
       var eaYesCard = document.getElementById('eaYesCard');
       var eaNoCard = document.getElementById('eaNoCard');
-      
+
       if (eaYes) eaYes.addEventListener('change', updateEACardStates);
       if (eaNo) eaNo.addEventListener('change', updateEACardStates);
-      
+
       // Add click handlers to EA cards
       if (eaYesCard && eaYes) {
         var labelYes = eaYesCard.querySelector('label');
@@ -3244,50 +3541,50 @@
           labelYes.style.pointerEvents = 'none';
         }
         eaYes.style.pointerEvents = 'auto';
-        
+
         eaYesCard.addEventListener('click', function(e) {
           e.stopPropagation();
           eaYes.checked = true;
           updateEACardStates();
         });
-        
+
         eaYes.addEventListener('click', function(e) {
           e.stopPropagation();
           updateEACardStates();
         });
       }
-      
+
       if (eaNoCard && eaNo) {
         var labelNo = eaNoCard.querySelector('label');
         if (labelNo) {
           labelNo.style.pointerEvents = 'none';
         }
         eaNo.style.pointerEvents = 'auto';
-        
+
         eaNoCard.addEventListener('click', function(e) {
           e.stopPropagation();
           eaNo.checked = true;
           updateEACardStates();
         });
-        
+
         eaNo.addEventListener('click', function(e) {
           e.stopPropagation();
           updateEACardStates();
         });
       }
-      
+
       // Continue button from environment to results
       var continueToResultsBtn = document.getElementById('continueToResults');
       if (continueToResultsBtn) {
         continueToResultsBtn.addEventListener('click', calculateImpact);
       }
-      
+
       // Edit button
       var editBtn = document.getElementById('editSelections');
       if (editBtn) {
         editBtn.addEventListener('click', editSelections);
       }
-      
+
       // Seats input formatting
       var seatsInput = document.getElementById('seatsQuestionnaire');
       if (seatsInput) {
@@ -3297,7 +3594,7 @@
             e.target.value = formatNumberInput(value);
           }
         });
-        
+
         seatsInput.addEventListener('blur', function(e) {
           var value = parseNumberInput(e.target.value);
           if (!isNaN(value) && value >= 0) {
@@ -3305,166 +3602,7 @@
           }
         });
       }
-      
-      // Lead form submission
-      var leadForm = document.getElementById('leadForm');
-      var submitLeadBtn = document.getElementById('submitLead');
-      
-      if (leadForm) {
-        leadForm.addEventListener('submit', function(e) {
-          e.preventDefault();
-          handleLeadSubmit();
-        });
-      }
-      
-      if (submitLeadBtn) {
-        submitLeadBtn.addEventListener('click', function(e) {
-          e.preventDefault();
-          handleLeadSubmit();
-        });
-      }
-      
-      // Scroll to details button
-      var scrollToDetailsBtn = document.getElementById('scrollToDetails');
-      if (scrollToDetailsBtn) {
-        scrollToDetailsBtn.addEventListener('click', function() {
-          var leadGateSection = document.getElementById('leadGateSection');
-          if (leadGateSection) {
-            leadGateSection.scrollIntoView({ 
-              behavior: 'smooth',
-              block: 'start'
-            });
-          }
-        });
-      }
-      
-      // CTA button handlers
-      var scheduleCallBtn = document.getElementById('scheduleCall');
-      if (scheduleCallBtn) {
-        scheduleCallBtn.addEventListener('click', function() {
-          // In real implementation, this would open a calendar scheduling tool
-          window.open('https://calendly.com/crayon-demo', '_blank');
-        });
-      }
-      
-      var downloadResultsBtn = document.getElementById('downloadResults');
-      if (downloadResultsBtn) {
-        downloadResultsBtn.addEventListener('click', function() {
-          // Export the lead data as JSON file
-          exportLeadData();
-        });
-      }
     });
-    
-    // Function to export lead data
-    function exportLeadData() {
-      try {
-        // Get the current form data
-        var firstName = document.getElementById('firstName').value;
-        var lastName = document.getElementById('lastName').value;
-        var email = document.getElementById('email').value;
-        var company = document.getElementById('company').value;
-        var phone = document.getElementById('phone').value;
-        
-        // Calculate total estimated impact
-        var totalImpact = 0;
-        var recommendedServices = [];
-        
-        // Get the calculated services from the results
-        var tableRows = document.querySelectorAll('#tableContent .table-row');
-        tableRows.forEach(function(row) {
-          var serviceName = row.querySelector('.service-name');
-          var impactTotal = row.querySelector('.impact-total');
-          
-          if (serviceName && impactTotal) {
-            var serviceText = serviceName.textContent.replace('MAX IMPACT PACK', '').trim();
-            recommendedServices.push(serviceText);
-            
-            var impactText = impactTotal.textContent.replace(/[$,]/g, '');
-            totalImpact += parseFloat(impactText) || 0;
-          }
-        });
-        
-        // Convert pain points and technologies to comma-separated strings
-        var painPointTexts = userSelections.painPoints.map(function(id) {
-          return painPointTransforms[id].challenge;
-        }).join(', ');
-        
-        var techText = userSelections.technologies.join(', ');
-        var recommendedServicesText = recommendedServices.join(', ');
-        
-        // Create the data object
-        var exportData = {
-          FirstName: firstName,
-          LastName: lastName,
-          Email: email,
-          Company: company,
-          Phone: phone || '',
-          PainPoints: painPointTexts,
-          Technologies: techText,
-          HasEA: userSelections.hasEA ? 'Yes' : 'No',
-          Seats: parseNumberInput(document.getElementById('seatsQuestionnaire').value),
-          SubmissionDate: new Date().toISOString(),
-          EstimatedImpact: Math.round(totalImpact),
-          RecommendedServices: recommendedServicesText
-        };
-        
-        // Create and download JSON file
-        var dataStr = JSON.stringify(exportData, null, 2);
-        var dataBlob = new Blob([dataStr], {type: 'application/json'});
-        var url = URL.createObjectURL(dataBlob);
-        var link = document.createElement('a');
-        link.href = url;
-        link.download = 'ITLegend_Lead_' + email.replace('@', '_') + '_' + new Date().getTime() + '.json';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        URL.revokeObjectURL(url);
-        
-        console.log('Lead data exported successfully');
-        
-        // Also copy to clipboard for easy pasting
-        navigator.clipboard.writeText(JSON.stringify(exportData, null, 2)).then(function() {
-          alert('Lead data has been downloaded and copied to clipboard!');
-        }).catch(function(err) {
-          alert('Lead data has been downloaded!');
-        });
-        
-      } catch (error) {
-        console.error('Error exporting lead data:', error);
-        alert('Error exporting data. Please check the console.');
-      }
-    }
-    
-    // Helper function to retrieve all stored leads
-    window.getStoredLeads = function() {
-      var stored = localStorage.getItem('itLegendFailedSubmissions');
-      if (stored) {
-        var leads = JSON.parse(stored);
-        console.log('Found ' + leads.length + ' stored lead(s):');
-        leads.forEach(function(item, index) {
-          console.log('Lead ' + (index + 1) + ':', item.data);
-        });
-        return leads;
-      } else {
-        console.log('No stored leads found');
-        return [];
-      }
-    };
-    
-    // Helper function to copy lead data to clipboard
-    window.copyLeadToClipboard = function(index) {
-      var stored = localStorage.getItem('itLegendFailedSubmissions');
-      if (stored) {
-        var leads = JSON.parse(stored);
-        if (leads[index]) {
-          var leadData = JSON.stringify(leads[index].data, null, 2);
-          navigator.clipboard.writeText(leadData).then(function() {
-            console.log('Lead data copied to clipboard!');
-          });
-        }
-      }
-    };
   </script>
 </body>
 </html>
